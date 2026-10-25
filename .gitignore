@@ -1,0 +1,53 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Operating-system and editor clutter
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs, temporary files, and backups
+*.log
+*.tmp
+*.temp
+*.bak
+backup_*/
+
+# Hotel data requires privacy and redistribution review before tracking.
+# Remove these exact rules only after adding an approved, sanitized dataset.
+goibibo.csv
+cleaned_hotels.csv
+hotels_final.csv
+
+# Local preprocessing caches and generated intermediates (not app inputs)
+wiki_raw.csv
+nom_raw.csv
+geocoded_*.csv
+city_anchor.csv
+city_centers.csv
+places_clean.csv
+attractions_base.csv
+attractions_final.csv
+hotel_metadata.csv
+zones.csv
+*.joblib
+
+# Generated local outputs
+itinerary_*.pdf
+multi_city_itinerary.pdf
