@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Personal files
+/resume/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Local backups and generated files
+/backup_checkpoint_*/
+/backup_pages2to5_*/
+/*.bak
+/app_backup_*.py
+/current_app.png
+*.joblib
+
+# Local maintenance scripts and exploratory notebooks
+/RECOVERY_NOTES.md
+/enrich_links.py
+/fix_app.py
+/*.ipynb
+
+# Runtime datasets and image files excluded until redistribution rights are confirmed
+/cities.csv
+/cities_supplement.csv
+/attractions_geo.csv
+/attractions_supplement.csv
+/attraction_image_manifest.csv
+/destination_links.csv
+/destination_links_supplement.csv
+/hotels_final.csv
+/assets/
+
+# Raw/intermediate datasets not used by the app
+/attractions_base.csv
+/attractions_final.csv
+/cleaned_hotels.csv
+/city_anchor.csv
+/city_centers.csv
+/geocoded_places_fix*.csv
+/geocoded_retry.csv
+/geocoded_top_only.csv
+/goibibo.csv
+/hotel_metadata.csv
+/india-tourism-food-dataset.csv
+/nom_raw.csv
+/places.csv
+/places_clean.csv
+/Top Indian Places to Visit.csv
+/wiki_raw.csv
+/zones.csv
+
+# Notebook-generated working files
+.ipynb_checkpoints/
